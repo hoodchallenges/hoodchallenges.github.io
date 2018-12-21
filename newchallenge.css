@@ -39,3 +39,7 @@ input[type=checkbox], label[for=felix] {
 input[type=checkbox], label[for=till] {
   display: inline;
 }
+
+.rules a{
+  text-decoration: underline;
+}
