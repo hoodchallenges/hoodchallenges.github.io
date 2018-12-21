@@ -16,30 +16,30 @@ a{
   text-decoration: none;
 }
 
+.rules a{
+  text-decoration: underline;
+}
+
 label {
   display: block;
   margin-top: 10px;
 }
 
-input[type=checkbox], label[for=bene] {
+input[type=checkbox], label[for=beneCheck] {
   display: inline;
 }
-input[type=checkbox], label[for=marko] {
+input[type=checkbox], label[for=markoCheck] {
   display: inline;
 }
-input[type=checkbox], label[for=johannes] {
+input[type=checkbox], label[for=johannesCheck] {
   display: inline;
 }
-input[type=checkbox], label[for=jonas] {
+input[type=checkbox], label[for=jonasCheck] {
   display: inline;
 }
-input[type=checkbox], label[for=felix] {
+input[type=checkbox], label[for=felixCheck] {
   display: inline;
 }
-input[type=checkbox], label[for=till] {
+input[type=checkbox], label[for=tillCheck] {
   display: inline;
-}
-
-.rules a{
-  text-decoration: underline;
 }

@@ -12,39 +12,41 @@
     <div class="rules">
       <p>Bevor eine neue Challenge eingetragen wird, prüfe <a href="rules.htm">hier</a> ob sie den Regeln entspricht.</p>
     </div>
-    <form class="challengeForm" action="index.html" method="post">
-      <label for="challengeName">Challenge Name</label>
-      <input type="text" id="challengeName">
-      <label for="challengeDescrip">Beschreibung</label>
-      <textarea id="challengeDescrip" rows="1" cols="80"></textarea>
-      <label>Datum</label>
-      <input type="date" id="date">
-      <label for=""></label>
-      <input type="checkbox" id="beneCheck">
-      <label for="beneCheck">Bene</label>
-      <input type="checkbox" id="felixCheck">
-      <label for="felixCheck">Felix</label>
-      <input type="checkbox" id="jonasCheck">
-      <label for="jonasCheck">Jonas</label>
-      <input type="checkbox" id="johannesCheck">
-      <label for="johannesCheck">Johannes</label>
-      <input type="checkbox" id="markoCheck">
-      <label for="markoCheck">Marko</label>
-      <input type="checkbox" id="tillCheck">
-      <label for="tillCheck">Till</label>
-      <label>Gewinner</label>
-      <select name="Gewinner" id="winner">
-          <option value="beneIsWinner">Bene</option>
-          <option value="felixIsWinner">Felix</option>
-          <option value="jonasIsWinner">Jonas</option>
-          <option value="johannesIsWinner">Johannes</option>
-          <option value="markoIsWinner">Marko</option>
-          <option value="tillIsWinner">Till</option>
-      </select>
-      <label for="passwort">Passwort</label>
-      <input type="password" id="passwort">
-      <input type="submit" name="" value="Eintragen">
-    </form>
+    <div class="challengeForm">
+      <form class="challengeForm" action="index.html" method="post">
+        <label for="challengeName">Challenge Name</label>
+        <input type="text" id="challengeName">
+        <label for="challengeDescrip">Beschreibung</label>
+        <textarea id="challengeDescrip" rows="1" cols="80"></textarea>
+        <label>Datum</label>
+        <input type="date" id="date">
+        <label for=""></label>
+        <input type="checkbox" id="beneCheck">
+        <label for="beneCheck">Bene</label>
+        <input type="checkbox" id="felixCheck">
+        <label for="felixCheck">Felix</label>
+        <input type="checkbox" id="jonasCheck">
+        <label for="jonasCheck">Jonas</label>
+        <input type="checkbox" id="johannesCheck">
+        <label for="johannesCheck">Johannes</label>
+        <input type="checkbox" id="markoCheck">
+        <label for="markoCheck">Marko</label>
+        <input type="checkbox" id="tillCheck">
+        <label for="tillCheck">Till</label>
+        <label>Gewinner</label>
+        <select name="Gewinner" id="winner">
+            <option value="beneIsWinner">Bene</option>
+            <option value="felixIsWinner">Felix</option>
+            <option value="jonasIsWinner">Jonas</option>
+            <option value="johannesIsWinner">Johannes</option>
+            <option value="markoIsWinner">Marko</option>
+            <option value="tillIsWinner">Till</option>
+        </select>
+        <label for="passwort">Passwort</label>
+        <input type="password" id="passwort">
+        <input type="submit" name="" value="Eintragen">
+      </form>
+    </div>
 
     <script type="text/javascript">
       var nr = 0;
